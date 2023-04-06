@@ -1599,7 +1599,7 @@ AddOutputFilter chunkFilter
 		<Item Name="acqTest.vi" Type="VI" URL="../acqTest.vi"/>
 		<Item Name="rpm.vi" Type="VI" URL="../rpm.vi"/>
 		<Item Name="ISR.vi" Type="VI" URL="../ISR.vi"/>
-		<Item Name="get_rpm_WinAvg.vi" Type="VI" URL="../get_rpm_WinAvg.vi"/>
+		<Item Name="get_rpm.vi" Type="VI" URL="../get_rpm.vi"/>
 		<Item Name="measure_rpm_winAvg.vi" Type="VI" URL="../measure_rpm_winAvg.vi"/>
 		<Item Name="multiSineRT_inst.vi" Type="VI" URL="../multiSineRT_inst.vi"/>
 		<Item Name="Sync.lvlib" Type="Library" URL="../Sync.lvlib"/>
@@ -1773,6 +1773,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
 				<Item Name="NILVSim.dll" Type="Document" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/NILVSim.dll"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1780,6 +1781,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nitaglv.dll" Type="Document" URL="nitaglv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
