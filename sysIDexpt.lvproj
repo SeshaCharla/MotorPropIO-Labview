@@ -1733,6 +1733,9 @@ AddOutputFilter chunkFilter
 		<Item Name="multiSineRT_inst.vi" Type="VI" URL="../multiSineRT_inst.vi"/>
 		<Item Name="Sync.lvlib" Type="Library" URL="../Sync.lvlib"/>
 		<Item Name="reset_expt.vi" Type="VI" URL="../reset_expt.vi"/>
+		<Item Name="feedback_linearization.vi" Type="VI" URL="../feedback_linearization.vi"/>
+		<Item Name="u2pwm.vi" Type="VI" URL="../u2pwm.vi"/>
+		<Item Name="u_sat.vi" Type="VI" URL="../u_sat.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
