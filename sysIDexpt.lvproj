@@ -1724,16 +1724,17 @@ AddOutputFilter chunkFilter
 			</Item>
 		</Item>
 		<Item Name="arm_esc.vi" Type="VI" URL="../arm_esc.vi"/>
+		<Item Name="2d_ref_model.vi" Type="VI" URL="../2d_ref_model.vi"/>
 		<Item Name="Test PWM.vi" Type="VI" URL="../Test PWM.vi"/>
 		<Item Name="acqTest.vi" Type="VI" URL="../acqTest.vi"/>
 		<Item Name="rpm.vi" Type="VI" URL="../rpm.vi"/>
 		<Item Name="ISR.vi" Type="VI" URL="../ISR.vi"/>
 		<Item Name="get_rpm.vi" Type="VI" URL="../get_rpm.vi"/>
 		<Item Name="measure_rpm_winAvg.vi" Type="VI" URL="../measure_rpm_winAvg.vi"/>
-		<Item Name="multiSineRT_inst.vi" Type="VI" URL="../multiSineRT_inst.vi"/>
+		<Item Name="RT_control.vi" Type="VI" URL="../RT_control.vi"/>
 		<Item Name="Sync.lvlib" Type="Library" URL="../Sync.lvlib"/>
 		<Item Name="reset_expt.vi" Type="VI" URL="../reset_expt.vi"/>
-		<Item Name="feedback_linearization.vi" Type="VI" URL="../feedback_linearization.vi"/>
+		<Item Name="RT_sysID.vi" Type="VI" URL="../RT_sysID.vi"/>
 		<Item Name="u2pwm.vi" Type="VI" URL="../u2pwm.vi"/>
 		<Item Name="u_sat.vi" Type="VI" URL="../u_sat.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -1929,6 +1930,7 @@ AddOutputFilter chunkFilter
 				<Item Name="ELVIS III v1.0 Unreserve PWM.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/ELVIS III v1.0/PWM/vis/ELVIS III v1.0 Unreserve PWM.vi"/>
 				<Item Name="ELVIS III v1.0 Close PWM.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/ELVIS III v1.0/PWM/vis/ELVIS III v1.0 Close PWM.vi"/>
 				<Item Name="NILVSim.dll" Type="Document" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/NILVSim.dll"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
