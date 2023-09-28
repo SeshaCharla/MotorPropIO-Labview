@@ -1737,6 +1737,7 @@ AddOutputFilter chunkFilter
 		<Item Name="RT_sysID.vi" Type="VI" URL="../RT_sysID.vi"/>
 		<Item Name="u2pwm.vi" Type="VI" URL="../u2pwm.vi"/>
 		<Item Name="u_sat.vi" Type="VI" URL="../u_sat.vi"/>
+		<Item Name="fb_lin_ctrl.vi" Type="VI" URL="../fb_lin_ctrl.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
