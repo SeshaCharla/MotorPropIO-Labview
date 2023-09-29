@@ -1724,7 +1724,6 @@ AddOutputFilter chunkFilter
 			</Item>
 		</Item>
 		<Item Name="arm_esc.vi" Type="VI" URL="../arm_esc.vi"/>
-		<Item Name="2d_ref_model.vi" Type="VI" URL="../2d_ref_model.vi"/>
 		<Item Name="Test PWM.vi" Type="VI" URL="../Test PWM.vi"/>
 		<Item Name="acqTest.vi" Type="VI" URL="../acqTest.vi"/>
 		<Item Name="rpm.vi" Type="VI" URL="../rpm.vi"/>
